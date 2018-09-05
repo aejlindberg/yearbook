@@ -1,5 +1,5 @@
 html {
-  background: #0025FF;
+  background: #FC3323;
   color: #fff;
 }
 
@@ -9,14 +9,43 @@ header {
 
 .logo {
   text-align: center;
-  display: inline-block;
+  display: block;
   width: 200px;
   height: 200px;
   border-radius: 100%;
   background: #fff;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .logo img {
   width: 140px;
   margin-top: 55px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.yearbook {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.student_inner {
+  background-color: #FFAEC1;
+  text-align: center;
+  color: #000000;
+  width: 300px;
+  height: 420px;
+  font-family: 'Baloo Tammudu', cursive;
+  line-height: 0.8;
+  margin: 5px;
+  padding-top: 15px;
+  float: left;
+  box-shadow: 5px 5px #AB2A20;
+}
+
+.student_inner img {
+  width: 270px;
+  height: auto;
 }
